@@ -21,13 +21,11 @@ MailByGrunt is a workflow for designing and testing emails. MailByGrunt will inl
 
 ## Diving in
 
-<code>
+<pre>
 git clone https://github.com/invmatt/MailByGrunt.git
-
 cd MailByGrunt
-
 npm install
-</code>
+</pre>
 
 ## Using MailByGrunt
 
