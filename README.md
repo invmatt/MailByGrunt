@@ -23,7 +23,9 @@ MailByGrunt is a workflow for designing and testing emails. MailByGrunt will inl
 
 <code>
 git clone https://github.com/invmatt/MailByGrunt.git
+
 cd MailByGrunt
+
 npm install
 </code>
 
@@ -43,5 +45,7 @@ MailByGrunt uses SCSS (and Compass), for any changes modify the .scss files.
 ### Generate your email templates
 
 <code>grunt dev</code> - This should be used during development and watches for any template changes.
+
 <code>grunt dist</code> - This compiles all code and outputs the final result under <code>/dist</code>.
+
 <code>grunt send</code> - Sends the email to yourself (requires a Gmail Account).
