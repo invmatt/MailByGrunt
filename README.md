@@ -48,3 +48,7 @@ MailByGrunt uses SCSS (and Compass), for any changes modify the .scss files.
 <code>grunt dist</code> - This compiles all code and outputs the final result under <code>/dist</code>.
 
 <code>grunt send</code> - Sends the email to yourself (requires a Gmail Account).
+
+### Changelog
+
+[Available on the Wiki](https://github.com/invmatt/MailByGrunt/wiki/Changelog)
