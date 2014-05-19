@@ -1,0 +1,10 @@
+{
+	"type": "SMTP",
+	"options": {
+		"service": "Gmail",
+		"auth": {
+			"user": "GMAILEMAILADDRESS",
+			"pass": "GMAILPASSWORD"
+		}
+	}
+}

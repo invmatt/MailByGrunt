@@ -1,0 +1,5 @@
+{
+	host: "FTPHOSTNAME",
+	port: 22,
+	authKey: "key1"
+}
