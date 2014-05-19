@@ -11,14 +11,6 @@ MailByGrunt is a workflow for designing and testing emails. MailByGrunt will inl
 * Premailer
 * GMAIL account (used to send the test emails)
 
-## Initial setup
-
-1. Open up GruntFile.js. On lines 21 & 22 add the client name and the email address you want to send all previews to.
-2. Line 231 within GruntFile.js edit the location for images to be uploaded in to (Example: /var/public_html/someclientname)
-3. Line 248 within GruntFile.js add the domain (example: http://yourdomain.com/clientname/)
-4. <code>config/ftp-config.json</code> & <code>.ftppass</code> - Add your SFTP details within here
-5. <code>nodemailer-transport.json</code> - Add your GMAIL credentials
-
 ## Diving in
 
 <pre>
@@ -26,6 +18,14 @@ git clone https://github.com/invmatt/MailByGrunt.git
 cd MailByGrunt
 npm install
 </pre>
+
+## Initial setup
+
+1. Open up GruntFile.js. On lines 21 & 22 add the client name and the email address you want to send all previews to.
+2. Line 231 within GruntFile.js edit the location for images to be uploaded in to (Example: /var/public_html/someclientname)
+3. Line 248 within GruntFile.js add the domain (example: http://yourdomain.com/clientname/)
+4. <code>config/ftp-config.json</code> & <code>.ftppass</code> - Add your SFTP details within here
+5. <code>nodemailer-transport.json</code> - Add your GMAIL credentials
 
 ## Using MailByGrunt
 
