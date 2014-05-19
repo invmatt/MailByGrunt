@@ -17,6 +17,7 @@ MailByGrunt is a workflow for designing and testing emails. MailByGrunt will inl
 git clone https://github.com/invmatt/MailByGrunt.git
 cd MailByGrunt
 npm install
+gem install premailer
 </pre>
 
 ## Initial setup
