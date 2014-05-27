@@ -1,23 +1,23 @@
 {
-  "name": "grunt-email-boilerplate",
-  "description": "An Enhanced HTML E-mail Boilerplate",
-  "version": "0.3.0",
+  "name": "mail-by-grunt",
+  "description": "Grunt workflow for HTML email templates",
+  "version": "0.1.0",
   "author": {
-    "name": "Marco \"DWJ\" Solazzi",
-    "url": "https://github.com/dwightjack"
+    "name": "invmatt",
+    "url": "https://github.com/invmatt"
   },
-  "homepage": "https://github.com/dwightjack/grunt-email-boilerplate",
+  "homepage": "https://github.com/invmatt/MailByGrunt",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dwightjack/grunt-email-boilerplate.git"
+    "url": "git://github.com/invmatt/MailByGrunt.git"
   },
   "bugs": {
-    "url": "https://github.com/dwightjack/grunt-email-boilerplate/issues"
+    "url": "https://github.com/invmatt/MailByGrunt/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/dwightjack/grunt-email-boilerplate/blob/master/MIT_LICENSE.txt"
+      "url": "https://github.com/invmatt/MailByGrunt"
     }
   ],
   "main": "Gruntfile.js",
