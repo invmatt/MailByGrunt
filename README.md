@@ -1,4 +1,4 @@
-<img src="http://i.imgur.com/8SaI28u.png" alt="MailByGrunt" />
+<img src="http://i.imgur.com/Cb3D7Bp.png" alt="MailByGrunt" />
 
 MailByGrunt is a workflow for designing and testing emails. MailByGrunt will inline CSS, build your email templates, upload images onto your server (using SFTP) and send a test email to your inbox.
 
