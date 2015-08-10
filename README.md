@@ -44,7 +44,9 @@ MailByGrunt uses SCSS (and Compass), for any changes modify the .scss files.
 
 <code>grunt dev</code> - This should be used during development and watches for any template changes.
 
-<code>grunt dist</code> - This compiles all code and outputs the final result under <code>/dist</code>.
+<code>grunt local</code> - This compiles all code and outputs the final result under <code>/dist</code>
+
+<code>grunt dist</code> - This compiles all code and outputs the final result under <code>/dist</code> and uploads all images to the remote server.
 
 <code>grunt send</code> - Sends the email to yourself (requires a Gmail Account).
 
