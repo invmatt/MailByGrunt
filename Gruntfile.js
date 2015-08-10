@@ -228,7 +228,7 @@ module.exports = function(grunt) {
 		},
 
 		replace: {
-			example: {
+			remote: {
 				src: ['<%= paths.dist %>/*.html'],
 				dest: '<%= paths.dist %>/<%= settings.name %>/',
 				replacements: [
@@ -244,6 +244,16 @@ module.exports = function(grunt) {
 					{
 						from: '<link rel="stylesheet" type="text/css" href="css/style.css"/>',
 						to: '<!-- Removed stylesheet -->'
+					}
+				]
+			},
+			local: {
+				src: ['<%= paths.dist %>/*.html'],
+				dest: '<%= paths.dist %>/<%= settings.name %>/',
+				replacements: [
+					{
+						from: '<link rel="stylesheet" type="text/css" href="css/style.css"/>',
+						to: ' '
 					}
 				]
 			}
@@ -328,6 +338,17 @@ module.exports = function(grunt) {
         'base_dev',
         'concurrent'
     ]);
+    
+    grunt.registerTask('local', [
+        'clean',
+        'copy',
+        'compass:dist',
+        'render',
+        'preprocess:dist',
+        'premailer:dist_html',
+        'premailer:dist_txt',
+        'replace:local'
+    ]);
 
 
     grunt.registerTask('dist', [
@@ -339,7 +360,7 @@ module.exports = function(grunt) {
         'premailer:dist_html',
         'premailer:dist_txt',
         'sftp-deploy',
-        'replace'
+        'replace:remote'
     ]);
 
     grunt.registerTask('send', 'Simulates an email delivery.', function() {
